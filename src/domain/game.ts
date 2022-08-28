@@ -26,7 +26,7 @@ export class Game {
     }
 
     const ranking = this.ranking;
-    return { winner: ranking[0], ranking };
+    return { vencedor: ranking[0], jogadores: ranking };
   }
 
   public runTurn(currentPlayers: Player[]) {
